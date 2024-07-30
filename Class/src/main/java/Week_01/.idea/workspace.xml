@@ -1,35 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2f79ca-ab15-44b9-90e8-61b75331394f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="da2f79ca-ab15-44b9-90e8-61b75331394f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mantu29&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mantu29/Computational-Optimization.git&quot;,
+    &quot;accountId&quot;: &quot;6b4c4afc-de68-4ce6-a2c4-50223afd6590&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iIFiQCc9CfoOOWg2qt23tp5fFw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Basics.ProjectCode.Main.executor": "Run",
+    "Application.Basics.ProjectCode.OptimizationProblemSolve.executor": "Run",
+    "Application.DFS.executor": "Run",
+    "Application.DataTypes.executor": "Run",
+    "Application.FJSP_IP.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectsClasses.executor": "Run",
+    "Application.OptimizationProblemRunner.executor": "Run",
+    "Application.OptimizationProblemSolve.executor": "Run",
+    "Application.TSPBnBDFS.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mantu/OneDrive - Indian Institute of Management/Desktop/IIMB_PhD/Term_IV/ComputationalOptimization/Class/src/main/java/Week_01",
+    "last_opened_file_path": "C:/Users/mantu/OneDrive/Documents/GitHub/Computational-Optimization/Project/src/main/java/HelloWorld.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Basics.ProjectCode.OptimizationProblemSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.ProjectCode.OptimizationProblemSolve" />
+      <module name="Week_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Week_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../Project/src/main/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Week_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../Project/src/main/java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Basics.ProjectCode.OptimizationProblemSolve" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Basics.ProjectCode.OptimizationProblemSolve" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,10 +126,20 @@
       <option name="presentableId" value="Default" />
       <updated>1719170311194</updated>
       <workItem from="1719170312285" duration="6000" />
+      <workItem from="1719938984041" duration="236000" />
+      <workItem from="1719939234479" duration="72000" />
+      <workItem from="1720520654169" duration="7324000" />
+      <workItem from="1720622611499" duration="12930000" />
+      <workItem from="1721134161721" duration="13140000" />
+      <workItem from="1721728003231" duration="6758000" />
+      <workItem from="1722012531385" duration="42167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataTypes_java$OptimizationProblemSolve.ic" NAME="OptimizationProblemSolve Coverage Results" MODIFIED="1722012932377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

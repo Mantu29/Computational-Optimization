@@ -91,3 +91,1459 @@ Solution count 1: 5
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Tue Jul  2 21:44:24 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0x905034c0
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.0000000
+Presolve removed 5 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Tue Jul  2 22:19:50 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0x905034c0
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.0000000
+Presolve removed 5 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Tue Jul  9 15:55:09 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0x905034c0
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.0000000
+Presolve removed 5 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:25:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0x905034c0
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.0000000
+Presolve removed 5 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:39:19 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:46:43 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:47:53 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:54:02 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:56:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:57:28 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:57:47 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 11:58:11 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5 rows, 46 columns and 8 nonzeros
+Model fingerprint: 0xb6f7f455
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 12:15:23 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 10 rows, 46 columns and 26 nonzeros
+Model fingerprint: 0x93c37a3c
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.0000000
+Presolve removed 10 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 12:15:52 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 10 rows, 46 columns and 26 nonzeros
+Model fingerprint: 0xb2d1bb7a
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.0000000
+Presolve removed 10 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 13:13:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 10 rows, 46 columns and 26 nonzeros
+Model fingerprint: 0xb2d1bb7a
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.0000000
+Presolve removed 10 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Wed Jul 10 23:35:05 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 13 rows, 46 columns and 32 nonzeros
+Model fingerprint: 0xab19a349
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 6.0000000
+Presolve removed 13 rows and 46 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:19:37 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 18 rows, 46 columns and 32 nonzeros
+Model fingerprint: 0x7ea10e5d
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 6.0000000
+Presolve removed 18 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:20:09 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 18 rows, 46 columns and 32 nonzeros
+Model fingerprint: 0x7ea10e5d
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 6.0000000
+Presolve removed 18 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:22:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 23 rows, 46 columns and 32 nonzeros
+Model fingerprint: 0xa87c6092
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 6.0000000
+Presolve removed 23 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:31:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 23 rows, 46 columns and 118 nonzeros
+Model fingerprint: 0x8f27baf1
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+Found heuristic solution: objective 6.0000000
+Presolve removed 23 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:41:11 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 41 rows, 46 columns and 172 nonzeros
+Model fingerprint: 0xa450aa0c
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 6.0000000
+Presolve removed 41 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 00:51:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:32:15 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.01s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:35:51 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:36:52 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:37:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:39:39 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:44:06 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 11:50:30 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:01:13 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 94 rows, 46 columns and 357 nonzeros
+Model fingerprint: 0x8d73fa7e
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 12.0000000
+Presolve removed 73 rows and 33 columns
+Presolve time: 0.00s
+Presolved: 21 rows, 13 columns, 80 nonzeros
+Variable types: 6 continuous, 7 integer (7 binary)
+
+Root relaxation: objective 6.000000e+00, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    6.00000    0    3   12.00000    6.00000  50.0%     -    0s
+H    0     0                       9.0000000    7.00000  22.2%     -    0s
+H    0     0                       7.0000000    7.00000  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  MIR: 2
+
+Explored 1 nodes (4 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 7 9 12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:04:14 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 69 rows, 46 columns and 312 nonzeros
+Model fingerprint: 0x12c371d4
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 6.0000000
+Presolve removed 69 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:06:25 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 41 rows, 46 columns and 172 nonzeros
+Model fingerprint: 0xa450aa0c
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 6.0000000
+Presolve removed 41 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:10:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:22:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 41 rows, 46 columns and 172 nonzeros
+Model fingerprint: 0x8b6c3d9b
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Presolve removed 1 rows and 32 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:22:24 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 41 rows, 46 columns and 172 nonzeros
+Model fingerprint: 0xa450aa0c
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 6.0000000
+Presolve removed 41 rows and 46 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:22:42 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:24:13 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:32:10 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x6921b84f
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 3e+03]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c3"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:34:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0xae9a4960
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 29 rows and 29 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        65         -         0        12         -           0s
+       11        11        11         3         3         3           0s
+
+IIS computed: 11 constraints, 3 bounds
+IIS runtime: 0.01 seconds (0.00 work units)
+Warning: linear constraint 10 and linear constraint 11 have the same name "c3"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:35:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 66 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0xa06880e2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 51 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c3"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:38:13 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c3"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:38:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:46:24 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:48:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Jul 11 12:49:28 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:59:47 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"

@@ -29,3 +29,4321 @@ Solution count 2: 1 -0
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 16:21:00 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 0 rows, 2975 columns and 0 nonzeros
+Model fingerprint: 0xa6f1e74f
+Variable types: 35 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 16:31:28 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 0 rows, 2975 columns and 0 nonzeros
+Model fingerprint: 0xa6f1e74f
+Variable types: 35 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 16:32:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 0 rows, 2975 columns and 0 nonzeros
+Model fingerprint: 0xa6f1e74f
+Variable types: 35 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 16:57:33 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 35 rows, 2976 columns and 150 nonzeros
+Model fingerprint: 0x895d3151
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 16:58:57 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 115 rows, 2976 columns and 950 nonzeros
+Model fingerprint: 0x7cc3bfee
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:01:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 115 rows, 2976 columns and 950 nonzeros
+Model fingerprint: 0x7cc3bfee
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:06:47 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 150 rows, 2976 columns and 1750 nonzeros
+Model fingerprint: 0xb50c9397
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 10 rows and 2895 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 150 rows, 2976 columns and 1750 nonzeros
+Model fingerprint: 0xb50c9397
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 10 rows and 2895 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:15:00 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 150 rows, 2976 columns and 1750 nonzeros
+Model fingerprint: 0xb50c9397
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 10 rows and 2895 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       150         -         0        36         -           0s
+        3         3         3         0         0         0           0s
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.03 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:17:53 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 950 rows, 2976 columns and 3350 nonzeros
+Model fingerprint: 0x0c215ea3
+Variable types: 36 continuous, 2940 integer (2940 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 810 rows and 2895 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       950         -         0        36         -           0s
+        3         3         3         0         0         0           0s
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.03 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:28:59 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 230 rows, 1506 columns and 470 nonzeros
+Model fingerprint: 0xe1562a40
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 80 rows and 1425 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:30:58 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 230 rows, 1506 columns and 470 nonzeros
+Model fingerprint: 0xe1562a40
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 80 rows and 1425 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:43:38 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 264 rows, 1506 columns and 617 nonzeros
+Model fingerprint: 0xc29bd459
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 80 rows and 1391 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:47:56 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:52:54 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:53:31 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:54:11 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1044 rows, 1506 columns and 4425 nonzeros
+Model fingerprint: 0x64d6a687
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 107 rows and 1427 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1044         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.02 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:54:26 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1089 rows, 1506 columns and 4425 nonzeros
+Model fingerprint: 0xc4c7cac4
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 162 rows and 1470 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1089         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.04 seconds (0.01 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:54:39 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1089 rows, 1506 columns and 4355 nonzeros
+Model fingerprint: 0xf1ed6e71
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1391 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:54:52 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1090 rows, 1506 columns and 4358 nonzeros
+Model fingerprint: 0xfee239b6
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1391 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:58:12 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:58:22 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 17:58:51 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:04:05 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1135 rows, 1506 columns and 4599 nonzeros
+Model fingerprint: 0x7e6ab89b
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:05:36 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1124 rows, 1506 columns and 4505 nonzeros
+Model fingerprint: 0xefb7ffbe
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1390 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:06:54 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:07:19 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:08:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:10:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:14:08 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:16:54 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1159 rows, 1506 columns and 4561 nonzeros
+Model fingerprint: 0x402e7e0d
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 0 rows and 1334 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:19:17 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1079 rows, 1506 columns and 4481 nonzeros
+Model fingerprint: 0x400393b1
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1399 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1079         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.02 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:20:30 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1044 rows, 1506 columns and 4425 nonzeros
+Model fingerprint: 0x64d6a687
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 107 rows and 1427 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1044         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.02 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:21:25 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 185 rows, 1506 columns and 446 nonzeros
+Model fingerprint: 0x8955bc25
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 120.0000000
+Presolve removed 185 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 120 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+02, best bound 1.200000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:22:11 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1045 rows, 1506 columns and 4334 nonzeros
+Model fingerprint: 0x8df7669b
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 80 rows and 1400 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1045         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.03 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:22:36 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1045 rows, 1506 columns and 4334 nonzeros
+Model fingerprint: 0x67f12885
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 80 rows and 1400 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1045         -         0        36         -           0s
+        5         5         5         0         0         0           0s
+
+IIS computed: 5 constraints, 0 bounds
+IIS runtime: 0.03 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:50:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 185 rows, 1506 columns and 446 nonzeros
+Model fingerprint: 0x8955bc25
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 120.0000000
+Presolve removed 185 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 120 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+02, best bound 1.200000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:53:19 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 185 rows, 1506 columns and 446 nonzeros
+Model fingerprint: 0x8955bc25
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 120.0000000
+Presolve removed 185 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 120 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+02, best bound 1.200000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:56:54 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 219 rows, 1506 columns and 593 nonzeros
+Model fingerprint: 0x3c6f885f
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 219 rows and 1506 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 481.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.813000000000e+02, best bound 4.813000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:57:17 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1079 rows, 1506 columns and 4481 nonzeros
+Model fingerprint: 0x2eb9c3a6
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 80 rows and 1399 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1079         -         0        36         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.02 seconds (0.00 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 18:57:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 219 rows, 1506 columns and 593 nonzeros
+Model fingerprint: 0x3c6f885f
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 219 rows and 1506 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 481.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.813000000000e+02, best bound 4.813000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:02:24 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 219 rows, 1506 columns and 593 nonzeros
+Model fingerprint: 0x3c6f885f
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 219 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 481.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.813000000000e+02, best bound 4.813000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:26:58 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 219 rows, 1506 columns and 593 nonzeros
+Model fingerprint: 0x3c6f885f
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 219 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 481.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.813000000000e+02, best bound 4.813000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:29:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 219 rows, 1506 columns and 593 nonzeros
+Model fingerprint: 0x3c6f885f
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 219 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 481.3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.813000000000e+02, best bound 4.813000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:35:25 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:37:43 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 19:38:29 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:00:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.15 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:01:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.13 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:02:02 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:02:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 386 rows, 3007 columns and 991 nonzeros
+Model fingerprint: 0x6be692d1
+Variable types: 52 continuous, 2955 integer (2955 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 2777 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       386         -         0        52         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.12 seconds (0.02 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:06:56 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 386 rows, 3007 columns and 991 nonzeros
+Model fingerprint: 0x6be692d1
+Variable types: 52 continuous, 2955 integer (2955 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 2777 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       386         -         0        52         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.12 seconds (0.02 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:09:03 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 386 rows, 3007 columns and 991 nonzeros
+Model fingerprint: 0x6be692d1
+Variable types: 52 continuous, 2955 integer (2955 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 2777 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       386         -         0        52         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.02 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:09:25 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:12:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:14:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.15 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:15:35 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.15 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:16:16 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.16 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:17:25 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:21:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:23:57 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.13 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:27:50 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.13 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:38:37 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xaba8eb14
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 3 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:40:40 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:43:09 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf0f12eb2
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3106 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:46:21 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 430 rows, 3352 columns and 1105 nonzeros
+Model fingerprint: 0x05f21640
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3086 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       430         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:52:20 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 377 rows, 3352 columns and 875 nonzeros
+Model fingerprint: 0x610a3a50
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3139 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       377         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 21:52:57 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 185 rows, 1506 columns and 446 nonzeros
+Model fingerprint: 0x8955bc25
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 120.0000000
+Presolve removed 185 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 120 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+02, best bound 1.200000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:01:23 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:01:47 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf74ec594
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3088 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:02:34 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:02:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf74ec594
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3088 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.15 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:04:45 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf74ec594
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3088 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:10:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf74ec594
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3088 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.13 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:13:24 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 218 rows, 1506 columns and 590 nonzeros
+Model fingerprint: 0x83f14dae
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 218 rows and 1506 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:15:34 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 428 rows, 3352 columns and 1099 nonzeros
+Model fingerprint: 0xf74ec594
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 3088 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       428         -         0        55         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.14 seconds (0.03 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:18:29 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 338 rows, 3352 columns and 919 nonzeros
+Model fingerprint: 0xc1ee34ac
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 338 rows and 3352 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:19:29 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 338 rows, 3352 columns and 919 nonzeros
+Model fingerprint: 0xc1ee34ac
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 338 rows and 3352 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:25:19 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 8576 rows, 3352 columns and 42109 nonzeros
+Model fingerprint: 0x20a28b8f
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 5718 rows and 3211 columns
+Presolve time: 0.07s
+Presolved: 2858 rows, 141 columns, 10740 nonzeros
+Variable types: 55 continuous, 86 integer (85 binary)
+Found heuristic solution: objective 333.0000000
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.13 seconds (0.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 331.1 333 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 22:28:54 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2482 rows, 3352 columns and 10659 nonzeros
+Model fingerprint: 0xeaf0b6a7
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 121 rows and 3183 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      2482         -         0        55         -           0s
+        3         3         3         0         0         0           0s
+
+IIS computed: 3 constraints, 0 bounds
+IIS runtime: 0.04 seconds (0.01 work units)
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:05:58 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2482 rows, 6214 columns and 14947 nonzeros
+Model fingerprint: 0xf73733f7
+Variable types: 55 continuous, 6159 integer (6159 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 1321 rows and 6126 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311335e+02, 67 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.13349    0   17          -  331.13349      -     -    0s
+     0     0 1.000e+100    0   28          - infeasible      -     -    0s
+
+Cutting planes:
+  Learned: 5
+  Gomory: 4
+  Implied bound: 2
+  MIR: 132
+
+Explored 1 nodes (170 simplex iterations) in 0.13 seconds (0.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      2482         -         0        55         -           0s
+        6      1170        10         0        53         -           5s
+       34        62        34         0        23         -          10s
+       35        35        35         0         0         0          11s
+
+IIS computed: 35 constraints, 0 bounds
+IIS runtime: 10.92 seconds (3.27 work units)
+Warning: linear constraint 0 and linear constraint 4 have the same name "operation_constraint_5"
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:07:05 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2482 rows, 6214 columns and 14947 nonzeros
+Model fingerprint: 0x2b3f2c78
+Variable types: 55 continuous, 6159 integer (6159 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 1321 rows and 6126 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311003e+02, 68 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10033    0   18          -  331.10033      -     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 24
+  RLT: 5
+
+Explored 1 nodes (98 simplex iterations) in 0.11 seconds (0.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      2482         -         0        55         -           0s
+       14        20        14         0        10         -           5s
+       14        14        14         0         0         0           5s
+
+IIS computed: 14 constraints, 0 bounds
+IIS runtime: 5.12 seconds (1.65 work units)
+Warning: linear constraint 0 and linear constraint 2 have the same name "operation_constraint_11"
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:11:03 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1410 rows, 3352 columns and 7933 nonzeros
+Model fingerprint: 0xa199d981
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 249 rows and 3264 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311003e+02, 75 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10033    0   18          -  331.10033      -     -    0s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 25
+  RLT: 4
+
+Explored 1 nodes (122 simplex iterations) in 0.09 seconds (0.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1410         -         0        55         -           0s
+        8      1021        10         0        54         -           5s
+       33       184        34         0        47         -          10s
+       37        37        37         0         0         0          11s
+
+IIS computed: 37 constraints, 0 bounds
+IIS runtime: 11.18 seconds (4.23 work units)
+Warning: linear constraint 0 and linear constraint 4 have the same name "operation_constraint_8"
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:13:36 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1410 rows, 3352 columns and 7933 nonzeros
+Model fingerprint: 0xa199d981
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 249 rows and 3264 columns
+Presolve time: 0.02s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311003e+02, 75 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10033    0   18          -  331.10033      -     -    0s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 25
+  RLT: 4
+
+Explored 1 nodes (122 simplex iterations) in 0.09 seconds (0.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1410         -         0        55         -           0s
+        7      1021        10         0        54         -           5s
+       32       200        34         0        47         -          10s
+       37        37        37         0         0         0          11s
+
+IIS computed: 37 constraints, 0 bounds
+IIS runtime: 11.26 seconds (4.23 work units)
+Warning: linear constraint 0 and linear constraint 4 have the same name "operation_constraint_8"
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:41:18 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 338 rows, 3352 columns and 919 nonzeros
+Model fingerprint: 0xc1ee34ac
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 338 rows and 3352 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 331.1 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:55:39 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1410 rows, 3352 columns and 7933 nonzeros
+Model fingerprint: 0x46eda555
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 332.9000001
+Presolve removed 249 rows and 3264 columns
+Presolve time: 0.02s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311000e+02, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     331.1000000  331.10000  0.00%     -    0s
+
+Explored 1 nodes (0 simplex iterations) in 0.05 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 331.1 332.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sat Jul 27 23:57:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2482 rows, 3352 columns and 14947 nonzeros
+Model fingerprint: 0x770a563d
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Found heuristic solution: objective 332.9000001
+Presolve removed 1321 rows and 3264 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+
+Root relaxation: objective 3.311000e+02, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     331.1000000  331.10000  0.00%     -    0s
+
+Explored 1 nodes (0 simplex iterations) in 0.08 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 331.1 332.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:04:10 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x44e4465f
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:10:08 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x44e4465f
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:10:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x241ae536
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.03s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:11:04 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.02s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:13:23 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:14:30 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.02s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:18:11 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:21:19 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:24:12 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:26:55 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:29:16 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x007aa971
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:31:48 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0xa7bf5acf
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:36:06 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0xa7bf5acf
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:38:58 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0xa7bf5acf
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 4183 rows and 3264 columns
+Presolve time: 0.01s
+Presolved: 1161 rows, 88 columns, 3844 nonzeros
+Variable types: 55 continuous, 33 integer (33 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:41:44 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2268 rows, 1506 columns and 8578 nonzeros
+Model fingerprint: 0x8c929e25
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve removed 1784 rows and 1451 columns
+Presolve time: 0.00s
+Presolved: 484 rows, 55 columns, 1558 nonzeros
+Variable types: 35 continuous, 20 integer (20 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:42:53 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2268 rows, 1506 columns and 8578 nonzeros
+Model fingerprint: 0xe38a518a
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1784 rows and 1451 columns
+Presolve time: 0.00s
+Presolved: 484 rows, 55 columns, 1558 nonzeros
+Variable types: 35 continuous, 20 integer (20 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:44:45 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2268 rows, 1506 columns and 8578 nonzeros
+Model fingerprint: 0xe38a518a
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1784 rows and 1451 columns
+Presolve time: 0.00s
+Presolved: 484 rows, 55 columns, 1558 nonzeros
+Variable types: 35 continuous, 20 integer (20 binary)
+Found heuristic solution: objective 331.1000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 331.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:45:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2268 rows, 1506 columns and 8578 nonzeros
+Model fingerprint: 0x5f1ed107
+Variable types: 36 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1784 rows and 1318 columns
+Presolve time: 0.01s
+Presolved: 484 rows, 188 columns, 1964 nonzeros
+Variable types: 35 continuous, 153 integer (153 binary)
+Found heuristic solution: objective 481.3000000
+
+Root relaxation: objective 3.311000e+02, 45 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0    6  481.30000  331.10000  31.2%     -    0s
+H    0     0                     333.2000000  331.10000  0.63%     -    0s
+H    0     0                     331.3000000  331.10000  0.06%     -    0s
+     0     0  331.10000    0    5  331.30000  331.10000  0.06%     -    0s
+     0     0  331.10000    0    1  331.30000  331.10000  0.06%     -    0s
+H    0     0                     331.2999998  331.10000  0.06%     -    0s
+H    0     0                     331.1000000  331.10000  0.00%     -    0s
+     0     0  331.10000    0    1  331.10000  331.10000  0.00%     -    0s
+
+Explored 1 nodes (104 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 6: 331.1 331.3 331.3 ... 481.3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.311000000000e+02, best bound 3.311000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:46:21 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 5344 rows, 3352 columns and 20671 nonzeros
+Model fingerprint: 0x580bb66f
+Variable types: 55 continuous, 3297 integer (3297 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 4183 rows and 2929 columns
+Presolve time: 0.02s
+Presolved: 1161 rows, 423 columns, 4884 nonzeros
+Variable types: 55 continuous, 368 integer (368 binary)
+Found heuristic solution: objective 812.4000000
+
+Root relaxation: objective 3.311000e+02, 136 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0   15  812.40000  331.10000  59.2%     -    0s
+H    0     0                     339.8000000  331.10000  2.56%     -    0s
+H    0     0                     339.3000000  331.10000  2.42%     -    0s
+     0     0  331.15000    0   15  339.30000  331.15000  2.40%     -    0s
+     0     0  333.40000    0    2  339.30000  333.40000  1.74%     -    0s
+H    0     0                     334.0000000  333.40000  0.18%     -    0s
+H    0     0                     333.8000000  333.40000  0.12%     -    0s
+H    0     0                     333.7000000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    3  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    3  333.70000  333.40000  0.09%     -    0s
+     0     0  333.45563    0    3  333.70000  333.45563  0.07%     -    0s
+     0     0  333.50000    0    6  333.70000  333.50000  0.06%     -    0s
+     0     0  333.50000    0    6  333.70000  333.50000  0.06%     -    0s
+     0     0  333.50000    0    9  333.70000  333.50000  0.06%     -    0s
+     0     0  333.70000    0   11  333.70000  333.70000  0.00%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 1
+  Cover: 6
+  Implied bound: 6
+  MIR: 7
+  Relax-and-lift: 6
+
+Explored 1 nodes (766 simplex iterations) in 0.12 seconds (0.09 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 7: 333.7 333.8 334 ... 812.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.337000000000e+02, best bound 3.337000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:47:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 13440 rows, 8082 columns and 52425 nonzeros
+Model fingerprint: 0x0ff671f3
+Variable types: 87 continuous, 7995 integer (7995 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 10499 rows and 7039 columns
+Presolve time: 0.05s
+Presolved: 2941 rows, 1043 columns, 12454 nonzeros
+Variable types: 87 continuous, 956 integer (956 binary)
+Found heuristic solution: objective 1112.8000000
+
+Root relaxation: objective 3.311000e+02, 433 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0   22 1112.80000  331.10000  70.2%     -    0s
+     0     0  331.16667    0   36 1112.80000  331.16667  70.2%     -    0s
+     0     0  331.30000    0   25 1112.80000  331.30000  70.2%     -    0s
+H    0     0                     394.8000000  331.30000  16.1%     -    0s
+H    0     0                     385.4000000  332.26691  13.8%     -    0s
+     0     0  332.26691    0   21  385.40000  332.26691  13.8%     -    0s
+H    0     0                     382.3000000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0    6  382.30000  333.40000  12.8%     -    0s
+H    0     0                     373.1000000  333.40000  10.6%     -    0s
+H    0     0                     347.1000000  333.40000  3.95%     -    0s
+H    0     0                     345.9000000  333.40000  3.61%     -    0s
+     0     0  333.40000    0   15  345.90000  333.40000  3.61%     -    0s
+H    0     0                     342.2000000  333.40000  2.57%     -    0s
+H    0     0                     338.5000000  333.40000  1.51%     -    0s
+     0     0  333.40000    0   15  338.50000  333.40000  1.51%     -    0s
+     0     0  333.40000    0    3  338.50000  333.40000  1.51%     -    0s
+H    0     0                     334.1000000  333.40000  0.21%     -    0s
+     0     0  333.40000    0    3  334.10000  333.40000  0.21%     -    0s
+H    0     0                     334.0000000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    5  334.00000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    7  334.00000  333.40000  0.18%     -    0s
+H    0     0                     333.8000000  333.40000  0.12%     -    0s
+H    0     0                     333.7000000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    7  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    2  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    4  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    3  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0   13  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    6  333.70000  333.40000  0.09%     -    0s
+     0     0  333.41300    0   15  333.70000  333.41300  0.09%     -    0s
+     0     0  333.47503    0   12  333.70000  333.47503  0.07%     -    0s
+     0     0  333.47503    0   14  333.70000  333.47503  0.07%     -    0s
+     0     0  333.55017    0    7  333.70000  333.55017  0.04%     -    0s
+     0     0  333.55054    0   10  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55054    0   11  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55320    0   11  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0    9  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     2  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 5
+  Implied bound: 6
+  MIR: 11
+  StrongCG: 1
+  Relax-and-lift: 2
+
+Explored 11 nodes (3234 simplex iterations) in 0.87 seconds (0.80 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 10: 333.7 333.8 334 ... 382.3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.337000000000e+02, best bound 3.337000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 00:48:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 13440 rows, 8082 columns and 52425 nonzeros
+Model fingerprint: 0x0ff671f3
+Variable types: 87 continuous, 7995 integer (7995 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 10499 rows and 7039 columns
+Presolve time: 0.05s
+Presolved: 2941 rows, 1043 columns, 12454 nonzeros
+Variable types: 87 continuous, 956 integer (956 binary)
+Found heuristic solution: objective 1112.8000000
+
+Root relaxation: objective 3.311000e+02, 433 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0   22 1112.80000  331.10000  70.2%     -    0s
+     0     0  331.16667    0   36 1112.80000  331.16667  70.2%     -    0s
+     0     0  331.30000    0   25 1112.80000  331.30000  70.2%     -    0s
+H    0     0                     394.8000000  331.30000  16.1%     -    0s
+H    0     0                     385.4000000  332.26691  13.8%     -    0s
+     0     0  332.26691    0   21  385.40000  332.26691  13.8%     -    0s
+H    0     0                     382.3000000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0    6  382.30000  333.40000  12.8%     -    0s
+H    0     0                     373.1000000  333.40000  10.6%     -    0s
+H    0     0                     347.1000000  333.40000  3.95%     -    0s
+H    0     0                     345.9000000  333.40000  3.61%     -    0s
+     0     0  333.40000    0   15  345.90000  333.40000  3.61%     -    0s
+H    0     0                     342.2000000  333.40000  2.57%     -    0s
+H    0     0                     338.5000000  333.40000  1.51%     -    0s
+     0     0  333.40000    0   15  338.50000  333.40000  1.51%     -    0s
+     0     0  333.40000    0    3  338.50000  333.40000  1.51%     -    0s
+H    0     0                     334.1000000  333.40000  0.21%     -    0s
+     0     0  333.40000    0    3  334.10000  333.40000  0.21%     -    0s
+H    0     0                     334.0000000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    5  334.00000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    7  334.00000  333.40000  0.18%     -    0s
+H    0     0                     333.8000000  333.40000  0.12%     -    0s
+H    0     0                     333.7000000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    7  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    2  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    4  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    3  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0   13  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    6  333.70000  333.40000  0.09%     -    0s
+     0     0  333.41300    0   15  333.70000  333.41300  0.09%     -    0s
+     0     0  333.47503    0   12  333.70000  333.47503  0.07%     -    0s
+     0     0  333.47503    0   14  333.70000  333.47503  0.07%     -    0s
+     0     0  333.55017    0    7  333.70000  333.55017  0.04%     -    0s
+     0     0  333.55054    0   10  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55054    0   11  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55320    0   11  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0    9  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     2  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 5
+  Implied bound: 6
+  MIR: 11
+  StrongCG: 1
+  Relax-and-lift: 2
+
+Explored 11 nodes (3234 simplex iterations) in 0.89 seconds (0.80 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 10: 333.7 333.8 334 ... 382.3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.337000000000e+02, best bound 3.337000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 01:06:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 13440 rows, 8082 columns and 52425 nonzeros
+Model fingerprint: 0x0ff671f3
+Variable types: 87 continuous, 7995 integer (7995 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 10499 rows and 7039 columns
+Presolve time: 0.07s
+Presolved: 2941 rows, 1043 columns, 12454 nonzeros
+Variable types: 87 continuous, 956 integer (956 binary)
+Found heuristic solution: objective 1112.8000000
+
+Root relaxation: objective 3.311000e+02, 433 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0   22 1112.80000  331.10000  70.2%     -    0s
+     0     0  331.16667    0   36 1112.80000  331.16667  70.2%     -    0s
+     0     0  331.30000    0   25 1112.80000  331.30000  70.2%     -    0s
+H    0     0                     394.8000000  331.30000  16.1%     -    0s
+H    0     0                     385.4000000  332.26691  13.8%     -    0s
+     0     0  332.26691    0   21  385.40000  332.26691  13.8%     -    0s
+H    0     0                     382.3000000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0   20  382.30000  333.40000  12.8%     -    0s
+     0     0  333.40000    0    6  382.30000  333.40000  12.8%     -    0s
+H    0     0                     373.1000000  333.40000  10.6%     -    0s
+H    0     0                     347.1000000  333.40000  3.95%     -    0s
+H    0     0                     345.9000000  333.40000  3.61%     -    0s
+     0     0  333.40000    0   15  345.90000  333.40000  3.61%     -    0s
+H    0     0                     342.2000000  333.40000  2.57%     -    0s
+H    0     0                     338.5000000  333.40000  1.51%     -    0s
+     0     0  333.40000    0   15  338.50000  333.40000  1.51%     -    0s
+     0     0  333.40000    0    3  338.50000  333.40000  1.51%     -    0s
+H    0     0                     334.1000000  333.40000  0.21%     -    0s
+     0     0  333.40000    0    3  334.10000  333.40000  0.21%     -    0s
+H    0     0                     334.0000000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    5  334.00000  333.40000  0.18%     -    0s
+     0     0  333.40000    0    7  334.00000  333.40000  0.18%     -    0s
+H    0     0                     333.8000000  333.40000  0.12%     -    0s
+H    0     0                     333.7000000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    7  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    2  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    4  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    3  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0   13  333.70000  333.40000  0.09%     -    0s
+     0     0  333.40000    0    6  333.70000  333.40000  0.09%     -    0s
+     0     0  333.41300    0   15  333.70000  333.41300  0.09%     -    0s
+     0     0  333.47503    0   12  333.70000  333.47503  0.07%     -    0s
+     0     0  333.47503    0   14  333.70000  333.47503  0.07%     -    0s
+     0     0  333.55017    0    7  333.70000  333.55017  0.04%     -    0s
+     0     0  333.55054    0   10  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55054    0   11  333.70000  333.55054  0.04%     -    0s
+     0     0  333.55320    0   11  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0    9  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     0  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+     0     2  333.55320    0   10  333.70000  333.55320  0.04%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 5
+  Implied bound: 6
+  MIR: 11
+  StrongCG: 1
+  Relax-and-lift: 2
+
+Explored 11 nodes (3234 simplex iterations) in 0.86 seconds (0.80 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 10: 333.7 333.8 334 ... 382.3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.337000000000e+02, best bound 3.337000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Jul 28 01:06:59 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 36984 rows, 21600 columns and 146136 nonzeros
+Model fingerprint: 0x73116fc5
+Variable types: 144 continuous, 21456 integer (21456 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 28856 rows and 18847 columns
+Presolve time: 0.27s
+Presolved: 8128 rows, 2753 columns, 35230 nonzeros
+Variable types: 144 continuous, 2609 integer (2609 binary)
+Found heuristic solution: objective 2106.1000000
+
+Root relaxation: objective 3.311000e+02, 1290 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  331.10000    0  147 2106.10000  331.10000  84.3%     -    0s
+     0     0  331.29001    0  180 2106.10000  331.29001  84.3%     -    0s
+H    0     0                     940.5000000  331.50715  64.8%     -    1s
+     0     0  333.40000    0  159  940.50000  333.40000  64.6%     -    1s
+     0     0  333.40000    0  199  940.50000  333.40000  64.6%     -    1s
+     0     0  333.40000    0  164  940.50000  333.40000  64.6%     -    1s
+H    0     0                     940.4000000  333.40000  64.5%     -    1s
+H    0     0                     936.2000000  333.40000  64.4%     -    1s
+     0     0  333.40000    0  159  936.20000  333.40000  64.4%     -    1s
+     0     0  333.40000    0  146  936.20000  333.40000  64.4%     -    1s
+     0     0  333.40000    0  160  936.20000  333.40000  64.4%     -    1s
+     0     0  333.40000    0  178  936.20000  333.40000  64.4%     -    1s
+     0     0  451.10000    0  152  936.20000  451.10000  51.8%     -    1s
+H    0     0                     936.0000000  451.10000  51.8%     -    1s
+     0     0  451.10000    0  105  936.00000  451.10000  51.8%     -    2s
+H    0     0                     916.5000000  451.10000  50.8%     -    2s
+     0     0  451.10000    0   95  916.50000  451.10000  50.8%     -    2s
+     0     0  451.10000    0   98  916.50000  451.10000  50.8%     -    2s
+H    0     0                     879.6000000  451.10000  48.7%     -    2s
+     0     0  451.10000    0   83  879.60000  451.10000  48.7%     -    2s
+H    0     0                     686.5000000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   80  686.50000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   86  686.50000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   87  686.50000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   74  686.50000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   89  686.50000  451.10000  34.3%     -    2s
+     0     0  451.10000    0   93  686.50000  451.10000  34.3%     -    2s
+H    0     0                     655.8000000  451.10000  31.2%     -    2s
+     0     0  451.10000    0   86  655.80000  451.10000  31.2%     -    2s
+     0     0  451.10000    0   86  655.80000  451.10000  31.2%     -    3s
+     0     2  451.10000    0   86  655.80000  451.10000  31.2%     -    3s
+H  154   185                     655.6000000  451.10000  31.2%  83.1    3s
+H  554   621                     617.3000000  451.10000  26.9%  55.1    4s
+*  697   633             112     578.7000000  451.10000  22.0%  49.2    4s
+H  893   594                     571.2000000  451.10000  21.0%  45.6    4s
+* 1031   553             112     571.1000000  451.10000  21.0%  43.8    4s
+  1307   478  453.40000   13   70  571.10000  451.10000  21.0%  46.2    5s
+H 2294   503                     571.0999999  451.10000  21.0%  60.5    7s
+  4166   800  451.10000   14   86  571.10000  451.10000  21.0%  70.0   11s
+  4746   881     cutoff   30       571.10000  451.10000  21.0%  68.4   15s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 6
+  RLT: 2
+  Relax-and-lift: 2
+
+Explored 6652 nodes (411518 simplex iterations) in 18.21 seconds (24.76 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 10: 571.1 571.1 571.1 ... 686.5
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.711000000000e+02, best bound 5.711000000000e+02, gap 0.0000%

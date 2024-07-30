@@ -1,0 +1,22 @@
+1,get from cassA,0,0.2,,
+2,put to aligner,0,0.1,,
+3,Aligner process,1,0.1,,
+4,get from aligner,0,0.1,,
+5,LL vent,2,40,3,40
+6,put to LLA,0,1.5,,
+6,put to LLB,0,1.5,,
+7,LL pump,2,7.8,3,7.8
+8,get from LLA,4,7,5,7.1
+8,get from LLB,4,7.5,5,6.9
+9,put to CHC,4,6,5,6.2
+9,put to CHD,4,6.2,5,6
+10,CHCD process,8,25,9,25
+11,get from CHC,4,5.2,5,4.9
+11,get from CHD,4,5.3,5,4.9
+12,LL pump,2,7.8,3,7.8
+13,put to LLA,4,7.3,5,7.5
+13,put to LLB,4,7.3,5,7.5
+14,LL vent,2,40,3,40
+15,get from LLA,0,2.3,,
+15,get from LLB,0,2.3,,
+16,put to cassA,0,0.2,,
