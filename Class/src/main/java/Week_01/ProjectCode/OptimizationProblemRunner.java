@@ -1,15 +1,19 @@
 package Basics.ProjectCode;
 
 import com.gurobi.gurobi.*;
-import java.util.List;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class OptimizationProblemRunner {
 
     public static void main(String[] args) {
         // Define the number of jobs for each type
-        int numberOfJobA = 5;
-        int numberOfJobB = 3;
+        int numberOfJobA = 1;
+        int numberOfJobB = 1;
 
         // Get the job list
         List<Job> jobList = JobFactory.createAndInitializeJobs(45, numberOfJobA, numberOfJobB); // Initial number of processes is 45, can be adjusted
@@ -111,6 +115,10 @@ public class OptimizationProblemRunner {
 
             // Create parameter Cmax
             GRBVar Cmax = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "Cmax");
+
+            double H = 10000;
+
+            Map<Integer, Map<Integer, Integer>> jobAConstraints = new HashMap<>();
 
             // Add constraints to ensure all operations are executed exactly once
             for (int i = 0; i < numOperations; i++) {
@@ -253,8 +261,6 @@ public class OptimizationProblemRunner {
                 }
             }
 
-
-            double H = 10000;
             // Add the precedence constraints
             for (int i = 0; i < numOperations; i++) {
                 for (int j = 0; j < numOperations; j++) {
@@ -361,6 +367,845 @@ public class OptimizationProblemRunner {
                 }
             }
 
+            for (int i = 0; i < operations.size(); i++) {
+                Operation operation = operations.get(i);
+                System.out.println("Operation " + (i + 1) + ": Job Type - " + operation.getJobType() + ", Step Number - " + operation.getStepNumber());
+                for (int processIndex = 0; processIndex < operation.getProcesses().size(); processIndex++) {
+                    Process process = operation.getProcesses().get(processIndex);
+                    if (!process.getEligibleMachines().isEmpty()) {
+                        List<Integer> eligibleMachinesList = new ArrayList<>(process.getEligibleMachines());
+                        Integer firstEligibleMachine = eligibleMachinesList.get(0);
+                        System.out.println("  Step Number: " + operation.getStepNumber() + ", Process Number: " + (processIndex + 1) + ", First Eligible Machine: " + firstEligibleMachine);
+
+                        // Add the specific constraint for Job Type A, Step Number 5, and Process Index 1
+                        if (operation.getJobType().equals("A") && (operation.getStepNumber() == 5) && ((processIndex + 1) == 1)) {
+                            if (i + 1 < operations.size()) {
+                                Operation nextOperation = operations.get(i + 1);
+                                if (nextOperation.getStepNumber() == 6 && !nextOperation.getProcesses().get(1).getEligibleMachines().isEmpty()) {
+                                    List<Integer> nextEligibleMachinesList = new ArrayList<>(nextOperation.getProcesses().get(1).getEligibleMachines());
+                                    Integer nextFirstEligibleMachine = nextEligibleMachinesList.get(0);
+                                    model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                    System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                                }
+                            }
+                        }
+                    } else {
+                        System.out.println("  Step Number: " + operation.getStepNumber() + ", Process Number: " + (processIndex + 1) + ", No Eligible Machines");
+                    }
+                }
+                System.out.println();
+            }
+
+            for (int i = 0; i < operations.size(); i++) {
+                Operation operation = operations.get(i);
+                List<Process> processes = operation.getProcesses();
+
+                for (int processIndex = 0; processIndex < processes.size(); processIndex++) {
+                    Process process = processes.get(processIndex);
+                    int firstEligibleMachine = process.getEligibleMachines().iterator().next();
+
+                    // Define the constraints for JobA
+
+                    // S5 1 - S6 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 5) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 6 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S5 2 - S6 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 5) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 6 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S6 1 - S7 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 6) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 7 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S6 2 - S7 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 6) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 7 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S7 1 - S8 1 or 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 7) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 8 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S7 2 - S8 3 or 4
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 7) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 8 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S8 1 or 3 - S9 1 or 3
+                    if (operation.getJobType().equals("A") &&
+                            operation.getStepNumber() == 8 &&
+                            ((processIndex + 1) == 1 || (processIndex + 1) == 3)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 9 &&
+                                    (nextOperation.getProcesses().size() >= 1 && nextOperation.getProcesses().size() >= 3)) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine1], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][2][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][2][nextFirstEligibleMachine3], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][3][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "]");
+                            }
+                        }
+                    }
+
+                    // S8 2 or 4 - S9 2 or 4
+                    if (operation.getJobType().equals("A") &&
+                            operation.getStepNumber() == 8 &&
+                            ((processIndex + 1) == 2 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 9 &&
+                                    (nextOperation.getProcesses().size() >= 2 && nextOperation.getProcesses().size() >= 4)) {
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine2], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][3][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][3][nextFirstEligibleMachine4], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][4][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S9 1 or 2 - S10 - 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 9) && ((processIndex + 1) == 1 || (processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 10 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S9 3 or 4 - S10 - 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 9) && ((processIndex + 1) == 3 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 10 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S10 1 - S11 1 or 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 10) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 11 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S10 2 - S11 3 or 4
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 10) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 11 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S11 1 or 3 - S12 1 or 3
+                    if (operation.getJobType().equals("A") &&
+                            operation.getStepNumber() == 11 &&
+                            ((processIndex + 1) == 1 || (processIndex + 1) == 3)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 12 &&
+                                    (nextOperation.getProcesses().size() >= 1 && nextOperation.getProcesses().size() >= 3)) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine1], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][2][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][2][nextFirstEligibleMachine3], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][3][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "]");
+                            }
+                        }
+                    }
+
+                    // S11 2 or 4 - S12 2 or 4
+                    if (operation.getJobType().equals("A") &&
+                            operation.getStepNumber() == 11 &&
+                            ((processIndex + 1) == 2 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 12 &&
+                                    (nextOperation.getProcesses().size() >= 2 && nextOperation.getProcesses().size() >= 4)) {
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine2], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][3][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][3][nextFirstEligibleMachine4], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][4][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S12 1 or 2 - S13 - 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 12) && ((processIndex + 1) == 1 || (processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 13 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S12 3 or 4 - S13 - 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 12) && ((processIndex + 1) == 3 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 13 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S13 1 - S14 1 or 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 13) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 14 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                // Continue from the previous step
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S13 2 - S14 3 or 4
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 13) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 14 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S15 1 - S16 1 or 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 15) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 16 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S15 2 - S16 3 or 4
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 15) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 16 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S16 1 or 2 - S17 - 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 16) && ((processIndex + 1) == 1 || (processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 17 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S16 3 or 4 - S17 - 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 16) && ((processIndex + 1) == 3 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 17 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][processIndex][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S17 1 - S18 1
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 17) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 18 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S17 2 - S18 2
+                    if (operation.getJobType().equals("A") && (operation.getStepNumber() == 17) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 18 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Implementing constraints for Job B
+            for (int i = 0; i < operations.size(); i++) {
+                Operation operation = operations.get(i);
+                for (int processIndex = 0; processIndex < operation.getProcesses().size(); processIndex++) {
+                    Process process = operation.getProcesses().get(processIndex);
+                    int firstEligibleMachine = process.getEligibleMachines().iterator().next();
+
+                    // S5 1 - S6 1
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 5) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 6 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S5 2 - S6 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 5) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 6 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S6 1 - S7 1
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 6) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 7 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S6 2 - S7 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 6) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 7 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S7 1 - S8 1 or 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 7) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 8 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S7 2 - S8 3 or 4
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 7) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 8 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S8 1 or 3 - S9 1 or 3
+                    if (operation.getJobType().equals("B") &&
+                            operation.getStepNumber() == 8 &&
+                            ((processIndex + 1) == 1 || (processIndex + 1) == 3)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 9 &&
+                                    (nextOperation.getProcesses().size() >= 1 && nextOperation.getProcesses().size() >= 3)) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine1], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][2][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][2][nextFirstEligibleMachine3], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][3][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "]");
+                            }
+                        }
+                    }
+
+                    // S8 2 or 4 - S9 2 or 4
+                    if (operation.getJobType().equals("B") &&
+                            operation.getStepNumber() == 8 &&
+                            ((processIndex + 1) == 2 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 9 &&
+                                    (nextOperation.getProcesses().size() >= 2 && nextOperation.getProcesses().size() >= 4)) {
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine2], "specific_constraint_A_" + (i + 1));
+                                model.addConstr(A[i][3][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][3][nextFirstEligibleMachine4], "specific_constraint_A_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                                System.out.println("Added constraint: A[" + (i + 1) + "][4][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S9 1 or 2 - S10 1
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 9) && ((processIndex + 1) == 1 || (processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 10 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][processIndex][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S9 3 or 4 - S10 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 9) && ((processIndex + 1) == 3 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 10 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][processIndex][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S10 1 - S11 1 or 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 10) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 11 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S10 2 - S11 3 or 4
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 10) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 11 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S12 1 - S13 1 or 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 12) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 13 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess1 = nextOperation.getProcesses().get(0);
+                                Process nextProcess2 = nextOperation.getProcesses().get(1);
+
+                                int nextFirstEligibleMachine1 = nextProcess1.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine2 = nextProcess2.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][0][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine1]);
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine2]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine1 + "] + A[" + (i + 2) + "][2][" + nextFirstEligibleMachine2 + "]");
+                            }
+                        }
+                    }
+
+                    // S12 2 - S13 3 or 4
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 12) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 13 && nextOperation.getProcesses().size() >= 4) {
+                                Process nextProcess3 = nextOperation.getProcesses().get(2);
+                                Process nextProcess4 = nextOperation.getProcesses().get(3);
+
+                                int nextFirstEligibleMachine3 = nextProcess3.getEligibleMachines().iterator().next();
+                                int nextFirstEligibleMachine4 = nextProcess4.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][1][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][2][nextFirstEligibleMachine3]);
+                                rhs.addTerm(1, A[i + 1][3][nextFirstEligibleMachine4]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][3][" + nextFirstEligibleMachine3 + "] + A[" + (i + 2) + "][4][" + nextFirstEligibleMachine4 + "]");
+                            }
+                        }
+                    }
+
+                    // S13 1 or 2 - S14 1
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 13) && ((processIndex + 1) == 1 || (processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 14 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][processIndex][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][0][nextFirstEligibleMachine]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S13 3 or 4 - S14 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 13) && ((processIndex + 1) == 3 || (processIndex + 1) == 4)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 14 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                GRBLinExpr lhs = new GRBLinExpr();
+                                lhs.addTerm(1, A[i][processIndex][firstEligibleMachine]);
+
+                                GRBLinExpr rhs = new GRBLinExpr();
+                                rhs.addTerm(1, A[i + 1][1][nextFirstEligibleMachine]);
+
+                                model.addConstr(lhs, GRB.LESS_EQUAL, rhs, "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][" + (processIndex + 1) + "][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S14 1 - S15 1
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 14) && ((processIndex + 1) == 1)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 15 && nextOperation.getProcesses().size() >= 1) {
+                                Process nextProcess = nextOperation.getProcesses().get(0);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][0][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][0][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][1][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][1][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+
+                    // S14 2 - S15 2
+                    if (operation.getJobType().equals("B") && (operation.getStepNumber() == 14) && ((processIndex + 1) == 2)) {
+                        if (i + 1 < operations.size()) {
+                            Operation nextOperation = operations.get(i + 1);
+                            if (nextOperation.getStepNumber() == 15 && nextOperation.getProcesses().size() >= 2) {
+                                Process nextProcess = nextOperation.getProcesses().get(1);
+                                int nextFirstEligibleMachine = nextProcess.getEligibleMachines().iterator().next();
+
+                                model.addConstr(A[i][1][firstEligibleMachine], GRB.LESS_EQUAL, A[i + 1][1][nextFirstEligibleMachine], "specific_constraint_B_" + (i + 1));
+                                System.out.println("Added constraint: A[" + (i + 1) + "][2][" + firstEligibleMachine + "] <= A[" + (i + 2) + "][2][" + nextFirstEligibleMachine + "]");
+                            }
+                        }
+                    }
+                }
+            }
 
             // Integrate new variables and constraints into the model
             model.update();
@@ -374,7 +1219,6 @@ public class OptimizationProblemRunner {
 
             // Optimize the model
             model.optimize();
-
             // Print all variables that have been added to the model
             /*GRBVar[] vars = model.getVars();
             for (GRBVar var : vars) {
