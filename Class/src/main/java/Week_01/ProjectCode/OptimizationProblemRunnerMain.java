@@ -13,8 +13,8 @@ public class OptimizationProblemRunnerMain {
 
     public static void main(String[] args) {
         // Define the number of jobs for each type
-        int numberOfJobA = 6;
-        int numberOfJobB = 6;
+        int numberOfJobA = 1;
+        int numberOfJobB = 1;
 
         boolean DebugPrint = false; // Set this to true to enable printing of constraints
 
@@ -1519,10 +1519,10 @@ public class OptimizationProblemRunnerMain {
                     e_2.printStackTrace();
                 }
 
-                System.out.println("Cmax is: " + Cmax.get(GRB.DoubleAttr.X));
+                System.out.println("Cmax is: " + Cmax.get(GRB.DoubleAttr.X) + " s");
 
                 // Print the total optimization time
-                System.out.println("Total optimization time: " + optimizationTime + " s");
+                System.out.println("Total computation time: " + optimizationTime + " s");
 
                 // Create a string in CSV format
                 String data = numberOfJobA + "," + numberOfJobB + "," + Cmax.get(GRB.DoubleAttr.X) + "," + optimizationTime;

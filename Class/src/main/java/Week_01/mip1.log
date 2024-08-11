@@ -16760,3 +16760,87 @@ H 8526  4159                     748.3999999  652.20000  12.9%  51.4   68s
  1270104 533679  740.50000   55   48  748.30000  693.11814  7.37%  76.5 76913s
  1271155 534049     cutoff   63       748.30000  693.11930  7.37%  76.5 76921s
  1271981 534342  700.10000   49   43  748.30000  693.15898  7.37%  76.6 76929s
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Aug 11 13:38:33 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2379 rows, 1541 columns and 8893 nonzeros
+Model fingerprint: 0xfcfd10dc
+Variable types: 71 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1907 rows and 1363 columns
+Presolve time: 0.03s
+Presolved: 472 rows, 178 columns, 2035 nonzeros
+Variable types: 35 continuous, 143 integer (143 binary)
+Found heuristic solution: objective 482.5000000
+Found heuristic solution: objective 482.4000000
+Found heuristic solution: objective 442.8000000
+Found heuristic solution: objective 441.8000000
+
+Root relaxation: objective 3.314000e+02, 86 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     331.4000000  331.40000  0.00%     -    0s
+
+Explored 1 nodes (86 simplex iterations) in 0.03 seconds (0.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 331.4 441.8 442.8 ... 482.5
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.314000000000e+02, best bound 3.314000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Sun Aug 11 13:47:49 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2379 rows, 1541 columns and 8893 nonzeros
+Model fingerprint: 0xfcfd10dc
+Variable types: 71 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1907 rows and 1363 columns
+Presolve time: 0.02s
+Presolved: 472 rows, 178 columns, 2035 nonzeros
+Variable types: 35 continuous, 143 integer (143 binary)
+Found heuristic solution: objective 482.5000000
+Found heuristic solution: objective 482.4000000
+Found heuristic solution: objective 442.8000000
+Found heuristic solution: objective 441.8000000
+
+Root relaxation: objective 3.314000e+02, 86 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     331.4000000  331.40000  0.00%     -    0s
+
+Explored 1 nodes (86 simplex iterations) in 0.02 seconds (0.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 331.4 441.8 442.8 ... 482.5
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.314000000000e+02, best bound 3.314000000000e+02, gap 0.0000%
