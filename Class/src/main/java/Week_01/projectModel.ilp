@@ -3,87 +3,185 @@
 Minimize
  
 Subject To
- operation_constraint_8: A_8_1_5 + A_8_2_6 + A_8_3_5 + A_8_4_6 = 1
- operation_constraint_12: A_12_1_5 + A_12_2_6 + A_12_3_5 + A_12_4_6 = 1
- operation_constraint_46: A_46_1_5 + A_46_2_6 + A_46_3_5 + A_46_4_6 = 1
- operation_constraint_49: A_49_1_5 + A_49_2_6 + A_49_3_5 + A_49_4_6 = 1
- operation_constraint_8: S_8_5 + S_8_6 = 1
- operation_constraint_9: S_9_5 + S_9_6 = 1
- operation_constraint_12: S_12_5 + S_12_6 = 1
- operation_constraint_14: S_14_5 + S_14_6 = 1
- operation_constraint_33: S_33_5 + S_33_6 = 1
- operation_constraint_46: S_46_5 + S_46_6 = 1
- operation_constraint_49: S_49_5 + S_49_6 = 1
- operation_constraint_51: S_51_5 + S_51_6 = 1
- precedence_constraint_9: - 7 A_8_1_5 - 7.1 A_8_2_6 - 7.5 A_8_3_5
-   - 6.9 A_8_4_6 - t_8 + t_9 >= 0
- precedence_constraint_13: - 6 A_12_1_5 - 6.2 A_12_2_6 - 6.2 A_12_3_5
-   - 6 A_12_4_6 - t_12 + t_13 >= 0
- precedence_constraint_14: - 75 A_13_1_9 - 75 A_13_2_10 - t_13 + t_14 >= 0
- precedence_constraint_47: - 7 A_46_1_5 - 7.1 A_46_2_6 - 7.5 A_46_3_5
-   - 6.9 A_46_4_6 - t_46 + t_47 >= 0
- precedence_constraint_48: - 6 A_47_1_5 - 6.2 A_47_2_6 - 6.2 A_47_3_5
-   - 6 A_47_4_6 - t_47 + t_48 >= 0
- precedence_constraint_49: - 25 A_48_1_9 - 25 A_48_2_10 - t_48 + t_49 >= 0
- precedence_constraint_50: - 5.2 A_49_1_5 - 4.9 A_49_2_6 - 5.3 A_49_3_5
-   - 4.9 A_49_4_6 - t_49 + t_50 >= 0
- precedence_constraint_51: - 7.8 A_50_1_3 - 7.8 A_50_2_4 - t_50 + t_51
+ operation_constraint_103: A_103_1_1 = 1
+ precedence_constraint_21: - 0.2 A_20_1_1 - t_20 + t_21 >= 0
+ precedence_constraint_22: - 0.1 A_21_1_1 - t_21 + t_22 >= 0
+ precedence_constraint_23: - 0.1 A_22_1_2 - t_22 + t_23 >= 0
+ precedence_constraint_24: - 0.1 A_23_1_1 - t_23 + t_24 >= 0
+ precedence_constraint_25: - 40 A_24_1_3 - 40 A_24_2_4 - t_24 + t_25 >= 0
+ precedence_constraint_37: - 0.2 A_36_1_1 - t_36 + t_37 >= 0
+ precedence_constraint_38: - 0.1 A_37_1_1 - t_37 + t_38 >= 0
+ precedence_constraint_39: - 0.1 A_38_1_2 - t_38 + t_39 >= 0
+ precedence_constraint_40: - 0.1 A_39_1_1 - t_39 + t_40 >= 0
+ precedence_constraint_41: - 40 A_40_1_3 - 40 A_40_2_4 - t_40 + t_41 >= 0
+ precedence_constraint_53: - 0.2 A_52_1_1 - t_52 + t_53 >= 0
+ precedence_constraint_54: - 0.1 A_53_1_1 - t_53 + t_54 >= 0
+ precedence_constraint_55: - 0.1 A_54_1_2 - t_54 + t_55 >= 0
+ precedence_constraint_56: - 0.1 A_55_1_1 - t_55 + t_56 >= 0
+ precedence_constraint_57: - 40 A_56_1_3 - 40 A_56_2_4 - t_56 + t_57 >= 0
+ precedence_constraint_69: - 0.2 A_68_1_1 - t_68 + t_69 >= 0
+ precedence_constraint_70: - 0.1 A_69_1_1 - t_69 + t_70 >= 0
+ precedence_constraint_71: - 0.1 A_70_1_2 - t_70 + t_71 >= 0
+ precedence_constraint_72: - 0.1 A_71_1_1 - t_71 + t_72 >= 0
+ precedence_constraint_73: - 40 A_72_1_3 - 40 A_72_2_4 - t_72 + t_73 >= 0
+ precedence_constraint_85: - 0.2 A_84_1_1 - t_84 + t_85 >= 0
+ precedence_constraint_86: - 0.1 A_85_1_1 - t_85 + t_86 >= 0
+ precedence_constraint_87: - 0.1 A_86_1_2 - t_86 + t_87 >= 0
+ precedence_constraint_88: - 0.1 A_87_1_1 - t_87 + t_88 >= 0
+ precedence_constraint_89: - 40 A_88_1_3 - 40 A_88_2_4 - t_88 + t_89 >= 0
+ precedence_constraint_101: - 0.2 A_100_1_1 - t_100 + t_101 >= 0
+ precedence_constraint_102: - 0.1 A_101_1_1 - t_101 + t_102 >= 0
+ precedence_constraint_103: - 0.1 A_102_1_2 - t_102 + t_103 >= 0
+ precedence_constraint_104: - 0.1 A_103_1_1 - t_103 + t_104 >= 0
+ precedence_constraint_105: - 40 A_104_1_3 - 40 A_104_2_4 - t_104 + t_105
    >= 0
- precedence1_8_9_5: 200000 S_8_5 + 200000 S_9_5 + 100000 beta_8_9
-   - 6 A_9_1_5 - 6.4 A_9_3_5 + t_8 - t_9 >= 100000
- precedence1_8_14_6: 200000 S_8_6 + 200000 S_14_6 + 100000 beta_8_14
-   - 4.9 A_14_2_6 - 4.9 A_14_4_6 + t_8 - t_14 >= 100000
- precedence1_9_14_6: 200000 S_9_6 + 200000 S_14_6 + 100000 beta_9_14
-   - 4.9 A_14_2_6 - 4.9 A_14_4_6 + t_9 - t_14 >= 100000
- precedence1_12_14_5: 200000 S_12_5 + 200000 S_14_5 + 100000 beta_12_14
-   - 5.2 A_14_1_5 - 5.3 A_14_3_5 + t_12 - t_14 >= 100000
- precedence1_12_49_6: 200000 S_12_6 + 200000 S_49_6 + 100000 beta_12_49
-   - 4.9 A_49_2_6 - 4.9 A_49_4_6 + t_12 - t_49 >= 100000
- precedence1_14_51_6: 200000 S_14_6 + 200000 S_51_6 + 100000 beta_14_51
-   - 7.5 A_51_2_6 - 7.5 A_51_4_6 + t_14 - t_51 >= 100000
- precedence1_33_14_5: 200000 S_14_5 + 200000 S_33_5 + 100000 beta_33_14
-   - 5.2 A_14_1_5 - 5.3 A_14_3_5 - t_14 + t_33 >= 100000
- precedence1_33_51_6: 200000 S_33_6 + 200000 S_51_6 + 100000 beta_33_51
-   - 7.5 A_51_2_6 - 7.5 A_51_4_6 + t_33 - t_51 >= 100000
- precedence1_46_33_5: 200000 S_33_5 + 200000 S_46_5 + 100000 beta_46_33
-   - 5.2 A_33_1_5 - 5.3 A_33_3_5 - t_33 + t_46 >= 100000
- precedence1_46_49_5: 200000 S_46_5 + 200000 S_49_5 + 100000 beta_46_49
-   - 5.2 A_49_1_5 - 5.3 A_49_3_5 + t_46 - t_49 >= 100000
- precedence1_46_49_6: 200000 S_46_6 + 200000 S_49_6 + 100000 beta_46_49
-   - 4.9 A_49_2_6 - 4.9 A_49_4_6 + t_46 - t_49 >= 100000
- precedence1_46_51_5: 200000 S_46_5 + 200000 S_51_5 + 100000 beta_46_51
-   - 7.3 A_51_1_5 - 7.3 A_51_3_5 + t_46 - t_51 >= 100000
- precedence1_46_51_6: 200000 S_46_6 + 200000 S_51_6 + 100000 beta_46_51
-   - 7.5 A_51_2_6 - 7.5 A_51_4_6 + t_46 - t_51 >= 100000
- precedence1_49_8_6: 200000 S_8_6 + 200000 S_49_6 + 100000 beta_49_8
-   - 7.1 A_8_2_6 - 6.9 A_8_4_6 - t_8 + t_49 >= 100000
- precedence1_49_9_6: 200000 S_9_6 + 200000 S_49_6 + 100000 beta_49_9
-   - 6.5 A_9_2_6 - 6.5 A_9_4_6 - t_9 + t_49 >= 100000
- precedence1_49_33_6: 200000 S_33_6 + 200000 S_49_6 + 100000 beta_49_33
-   - 4.9 A_33_2_6 - 4.9 A_33_4_6 - t_33 + t_49 >= 100000
- precedence1_49_51_5: 200000 S_49_5 + 200000 S_51_5 + 100000 beta_49_51
-   - 7.3 A_51_1_5 - 7.3 A_51_3_5 + t_49 - t_51 >= 100000
+ precedence_constraint_117: - 0.2 A_116_1_1 - t_116 + t_117 >= 0
+ precedence_constraint_118: - 0.1 A_117_1_1 - t_117 + t_118 >= 0
+ precedence_constraint_119: - 0.1 A_118_1_2 - t_118 + t_119 >= 0
+ precedence_constraint_120: - 0.1 A_119_1_1 - t_119 + t_120 >= 0
+ precedence_constraint_121: - 40 A_120_1_3 - 40 A_120_2_4 - t_120 + t_121
+   >= 0
+ precedence_constraint_133: - 0.2 A_132_1_1 - t_132 + t_133 >= 0
+ precedence_constraint_134: - 0.1 A_133_1_1 - t_133 + t_134 >= 0
+ precedence_constraint_135: - 0.1 A_134_1_2 - t_134 + t_135 >= 0
+ precedence_constraint_136: - 0.1 A_135_1_1 - t_135 + t_136 >= 0
+ precedence_constraint_137: - 40 A_136_1_3 - 40 A_136_2_4 - t_136 + t_137
+   >= 0
+ precedence_constraint_149: - 0.2 A_148_1_1 - t_148 + t_149 >= 0
+ precedence_constraint_150: - 0.1 A_149_1_1 - t_149 + t_150 >= 0
+ precedence_constraint_151: - 0.1 A_150_1_2 - t_150 + t_151 >= 0
+ precedence_constraint_152: - 0.1 A_151_1_1 - t_151 + t_152 >= 0
+ precedence_constraint_153: - 40 A_152_1_3 - 40 A_152_2_4 - t_152 + t_153
+   >= 0
+ precedence_constraint_165: - 0.2 A_164_1_1 - t_164 + t_165 >= 0
+ precedence_constraint_166: - 0.1 A_165_1_1 - t_165 + t_166 >= 0
+ precedence_constraint_167: - 0.1 A_166_1_2 - t_166 + t_167 >= 0
+ precedence_constraint_168: - 0.1 A_167_1_1 - t_167 + t_168 >= 0
+ precedence_constraint_169: - 40 A_168_1_3 - 40 A_168_2_4 - t_168 + t_169
+   >= 0
+ precedence_constraint_181: - 0.2 A_180_1_1 - t_180 + t_181 >= 0
+ precedence_constraint_182: - 0.1 A_181_1_1 - t_181 + t_182 >= 0
+ precedence_constraint_183: - 0.1 A_182_1_2 - t_182 + t_183 >= 0
+ precedence_constraint_184: - 0.1 A_183_1_1 - t_183 + t_184 >= 0
+ precedence_constraint_185: - 40 A_184_1_3 - 40 A_184_2_4 - t_184 + t_185
+   >= 0
+ end_time_constraint_25: - 1.5 A_25_1_1 - 1.5 A_25_2_1 - t_25 + e_25 = 0
+ end_time_constraint_41: - 1.5 A_41_1_1 - 1.5 A_41_2_1 - t_41 + e_41 = 0
+ end_time_constraint_57: - 1.5 A_57_1_1 - 1.5 A_57_2_1 - t_57 + e_57 = 0
+ end_time_constraint_73: - 1.5 A_73_1_1 - 1.5 A_73_2_1 - t_73 + e_73 = 0
+ end_time_constraint_89: - 1.5 A_89_1_1 - 1.5 A_89_2_1 - t_89 + e_89 = 0
+ end_time_constraint_105: - 1.5 A_105_1_1 - 1.5 A_105_2_1 - t_105 + e_105
+   = 0
+ end_time_constraint_121: - 1.5 A_121_1_1 - 1.5 A_121_2_1 - t_121 + e_121
+   = 0
+ end_time_constraint_137: - 1.5 A_137_1_1 - 1.5 A_137_2_1 - t_137 + e_137
+   = 0
+ end_time_constraint_153: - 1.5 A_153_1_1 - 1.5 A_153_2_1 - t_153 + e_153
+   = 0
+ end_time_constraint_169: - 1.5 A_169_1_1 - 1.5 A_169_2_1 - t_169 + e_169
+   = 0
+ end_time_constraint_185: - 1.5 A_185_1_1 - 1.5 A_185_2_1 - t_185 + e_185
+   = 0
+ precedence_B_1_1: t_20 - e_185 >= 0
+ precedence_B_1_1: t_36 - e_25 >= 0
+ precedence_B_1_1: t_52 - e_41 >= 0
+ precedence_B_1_1: t_68 - e_57 >= 0
+ precedence_B_1_1: t_84 - e_73 >= 0
+ precedence_B_1_1: t_100 - e_89 >= 0
+ precedence_B_1_1: t_116 - e_105 >= 0
+ precedence_B_1_1: t_132 - e_121 >= 0
+ precedence_B_1_1: t_148 - e_137 >= 0
+ precedence_B_1_1: t_164 - e_153 >= 0
+ precedence_B_1_1: t_180 - e_169 >= 0
 Bounds
- t_8 free
- t_9 free
- t_12 free
- t_13 free
- t_14 free
- t_33 free
- t_46 free
- t_47 free
- t_48 free
- t_49 free
- t_50 free
- t_51 free
+ t_20 free
+ t_21 free
+ t_22 free
+ t_23 free
+ t_24 free
+ t_25 free
+ t_36 free
+ t_37 free
+ t_38 free
+ t_39 free
+ t_40 free
+ t_41 free
+ t_52 free
+ t_53 free
+ t_54 free
+ t_55 free
+ t_56 free
+ t_57 free
+ t_68 free
+ t_69 free
+ t_70 free
+ t_71 free
+ t_72 free
+ t_73 free
+ t_84 free
+ t_85 free
+ t_86 free
+ t_87 free
+ t_88 free
+ t_89 free
+ t_100 free
+ t_101 free
+ t_102 free
+ t_103 free
+ t_104 free
+ t_105 free
+ t_116 free
+ t_117 free
+ t_118 free
+ t_119 free
+ t_120 free
+ t_121 free
+ t_132 free
+ t_133 free
+ t_134 free
+ t_135 free
+ t_136 free
+ t_137 free
+ t_148 free
+ t_149 free
+ t_150 free
+ t_151 free
+ t_152 free
+ t_153 free
+ t_164 free
+ t_165 free
+ t_166 free
+ t_167 free
+ t_168 free
+ t_169 free
+ t_180 free
+ t_181 free
+ t_182 free
+ t_183 free
+ t_184 free
+ t_185 free
+ e_25 free
+ e_41 free
+ e_57 free
+ e_73 free
+ e_89 free
+ e_105 free
+ e_121 free
+ e_137 free
+ e_153 free
+ e_169 free
+ e_185 free
 Binaries
- S_8_5 S_8_6 S_9_5 S_9_6 S_12_5 S_12_6 S_14_5 S_14_6 S_33_5 S_33_6 S_46_5
- S_46_6 S_49_5 S_49_6 S_51_5 S_51_6 beta_8_9 beta_8_14 beta_9_14 beta_12_14
- beta_12_49 beta_14_51 beta_33_14 beta_33_51 beta_46_33 beta_46_49
- beta_46_51 beta_49_8 beta_49_9 beta_49_33 beta_49_51 A_8_1_5 A_8_2_6
- A_8_3_5 A_8_4_6 A_9_1_5 A_9_2_6 A_9_3_5 A_9_4_6 A_12_1_5 A_12_2_6 A_12_3_5
- A_12_4_6 A_13_1_9 A_13_2_10 A_14_1_5 A_14_2_6 A_14_3_5 A_14_4_6 A_33_1_5
- A_33_2_6 A_33_3_5 A_33_4_6 A_46_1_5 A_46_2_6 A_46_3_5 A_46_4_6 A_47_1_5
- A_47_2_6 A_47_3_5 A_47_4_6 A_48_1_9 A_48_2_10 A_49_1_5 A_49_2_6 A_49_3_5
- A_49_4_6 A_50_1_3 A_50_2_4 A_51_1_5 A_51_2_6 A_51_3_5 A_51_4_6
+ A_20_1_1 A_21_1_1 A_22_1_2 A_23_1_1 A_24_1_3 A_24_2_4 A_25_1_1 A_25_2_1
+ A_36_1_1 A_37_1_1 A_38_1_2 A_39_1_1 A_40_1_3 A_40_2_4 A_41_1_1 A_41_2_1
+ A_52_1_1 A_53_1_1 A_54_1_2 A_55_1_1 A_56_1_3 A_56_2_4 A_57_1_1 A_57_2_1
+ A_68_1_1 A_69_1_1 A_70_1_2 A_71_1_1 A_72_1_3 A_72_2_4 A_73_1_1 A_73_2_1
+ A_84_1_1 A_85_1_1 A_86_1_2 A_87_1_1 A_88_1_3 A_88_2_4 A_89_1_1 A_89_2_1
+ A_100_1_1 A_101_1_1 A_102_1_2 A_103_1_1 A_104_1_3 A_104_2_4 A_105_1_1
+ A_105_2_1 A_116_1_1 A_117_1_1 A_118_1_2 A_119_1_1 A_120_1_3 A_120_2_4
+ A_121_1_1 A_121_2_1 A_132_1_1 A_133_1_1 A_134_1_2 A_135_1_1 A_136_1_3
+ A_136_2_4 A_137_1_1 A_137_2_1 A_148_1_1 A_149_1_1 A_150_1_2 A_151_1_1
+ A_152_1_3 A_152_2_4 A_153_1_1 A_153_2_1 A_164_1_1 A_165_1_1 A_166_1_2
+ A_167_1_1 A_168_1_3 A_168_2_4 A_169_1_1 A_169_2_1 A_180_1_1 A_181_1_1
+ A_182_1_2 A_183_1_1 A_184_1_3 A_184_2_4 A_185_1_1 A_185_2_1
 End

@@ -1547,3 +1547,36 @@ Solution count 1: 7
 Optimal solution found (tolerance 1.00e-04)
 Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
 Warning: linear constraint 10 and linear constraint 11 have the same name "c30"
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Aug  8 11:29:58 2024
+
+Set parameter Username
+Set parameter LogFile to value "FJSP.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 65 rows, 46 columns and 217 nonzeros
+Model fingerprint: 0x7d566ec2
+Variable types: 6 continuous, 40 integer (40 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+03]
+  RHS range        [1e+00, 2e+04]
+Found heuristic solution: objective 7.0000000
+Presolve removed 50 rows and 36 columns
+Presolve time: 0.07s
+Presolved: 15 rows, 10 columns, 66 nonzeros
+Variable types: 4 continuous, 6 integer (6 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.08 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Warning: linear constraint 10 and linear constraint 11 have the same name "c30"

@@ -5,10 +5,61 @@ import java.util.List;
 
 public class JobFactory {
 
+    // List of process names corresponding to process IDs
+    private static final String[] PROCESS_NAMES = {
+            "Get from cassA using F1",       // ID 1
+            "Get from cassB using F1",       // ID 2
+            "Put to aligner using F1",       // ID 3
+            "Aligner process using Aligner", // ID 4
+            "Get from aligner using F1",     // ID 5
+            "LL vent LLA",                   // ID 6
+            "LL vent LLB",                   // ID 7
+            "Put to LLA using F1",           // ID 8
+            "Put to LLB using F1",           // ID 9
+            "Get from LLA using Blade1",     // ID 10
+            "Get from LLA using Blade2",     // ID 11
+            "Get from LLB using Blade1",     // ID 12
+            "Get from LLB using Blade2",     // ID 13
+            "Put to CHA using Blade1",       // ID 14
+            "Put to CHA using Blade2",       // ID 15
+            "Put to CHB using Blade1",       // ID 16
+            "Put to CHB using Blade2",       // ID 17
+            "CHA process",                   // ID 18
+            "CHB process",                   // ID 19
+            "Get from CHA using Blade1",     // ID 20
+            "Get from CHA using Blade2",     // ID 21
+            "Get from CHB using Blade1",     // ID 22
+            "Get from CHB using Blade2",     // ID 23
+            "Put to CHC using Blade1",       // ID 24
+            "Put to CHC using Blade2",       // ID 25
+            "Put to CHD using Blade1",       // ID 26
+            "Put to CHD using Blade2",       // ID 27
+            "CHC process",                   // ID 28
+            "CHD process",                   // ID 29
+            "CHC process(Deleted)",          // ID 30
+            "CHD process(Deleted)",          // ID 31
+            "Get from CHC using Blade1",     // ID 32
+            "Get from CHC using Blade2",     // ID 33
+            "Get from CHD using Blade1",     // ID 34
+            "Get from CHD using Blade2",     // ID 35
+            "LL pump LLA",                   // ID 36
+            "LL pump LLB",                   // ID 37
+            "Put to LLA using Blade1",       // ID 38
+            "Put to LLA using Blade2",       // ID 39
+            "Put to LLB using Blade1",       // ID 40
+            "Put to LLB using Blade2",       // ID 41
+            "Get from LLA using F1",         // ID 42
+            "Get from LLB using F1",         // ID 43
+            "Put to cassA using F1",         // ID 44
+            "Put to cassB using F1"          // ID 45
+    };
+
+    // Initialize processes with IDs and names
     public static List<Process> initializeProcesses(int n) {
         List<Process> processes = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
-            processes.add(new Process(i));
+            String processName = (i <= PROCESS_NAMES.length) ? PROCESS_NAMES[i - 1] : "Unknown Process"; // Assigning a name to each process
+            processes.add(new Process(i, processName));
         }
         return processes;
     }
@@ -115,5 +166,5 @@ public class JobFactory {
 
         return operations;
     }
-
 }
+

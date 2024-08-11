@@ -45,6 +45,18 @@ public class Solver {
              //C_max
              GRBVar cmax = model.addVar(0,M,1,GRB.CONTINUOUS,"cmax");
 
+             for(Truck truck:trucks){
+                 GRBLinExpr c0 = new GRBLinExpr();
+                 for(Truck truck1: trucks){
+                     for(int i =0;i<arcs.size();i++){
+                         if(arcs.get(i).n1 == truck.origin){
+                             c0.addTerm(1, xijk.get(truck1.truck_id).get(i));
+                         }
+                     }
+                 }
+                 model.addConstr(c0, GRB.EQUAL, 1, "c0");
+             }
+
 
              //c1: each truck starts from its origin location
              for(Truck truck: trucks){
@@ -57,9 +69,17 @@ public class Solver {
                  model.addConstr(c1,GRB.EQUAL,1,"c1");
              }
 
-             /*//c2: each truck must reach at its destination
-             //----
-             //----
+             //c2: each truck must reach at its destination
+             for(Truck truck: trucks){
+                 GRBLinExpr c2 = new GRBLinExpr();
+                 for(int i=0;i<arcs.size();i++){
+                     if(arcs.get(i).n2==truck.dest){
+                         c2.addTerm(1,xijk.get(truck.truck_id).get(i));
+                     }
+                 }
+                 model.addConstr(c2,GRB.EQUAL,1,"c2");
+             }
+
 
              //c3: flow preservation
              for(Truck truck: trucks){//for each truck
@@ -82,7 +102,17 @@ public class Solver {
              }
 
              //c4: each request is served by an eligible truck
-             //-----------
+             for(Request request: requests){
+                 GRBLinExpr c4 = new GRBLinExpr();
+                     for(Integer truck_id: request.eligible_trucks){
+                         for(int i=0;i<arcs.size();i++){
+                         if(arcs.get(i).n2== request.node_id){
+                             c4.addTerm(1, xijk.get(truck_id).get(i));
+                         }
+                         }
+                     }
+                 model.addConstr(c4,GRB.EQUAL,1,"c4");
+             }
 
 
              //c6: if an arc (i,j) is taken by a truck, the time at jth node is ...
@@ -91,23 +121,45 @@ public class Solver {
                      GRBLinExpr c6 = new GRBLinExpr();
                      c6.addTerm(1,tik.get(truck.truck_id).get(arcs.get(i).n1));
                      c6.addTerm(-1,tik.get(truck.truck_id).get(arcs.get(i).n2));
-                     c6.addTerm(M,xijk.get(truck.truck_id).get(i));
-                     //------------------------
+                     c6.addTerm(M, xijk.get(truck.truck_id).get(i));
+                     model.addConstr(c6, GRB.LESS_EQUAL, (M - nodes.get(arcs.get(i).n1).processing_time), "c6");
                  }
              }
 
              //c7: operation precedence constraints
              //custom constraints based on operation precedence
-             for(Truck truck: trucks){
-                 GRBLinExpr c7 = new GRBLinExpr();
-                 c7.addTerm(-1,tik.get(truck.truck_id).get(requests.get(0).node_id));
-                 c7.addTerm(1,tik.get(truck.truck_id).get(requests.get(1).node_id));
-                 model.addConstr(c7,GRB.GREATER_EQUAL,requests.get(0).process_time,"c7");
+             for(Truck truck1: trucks){
+                 for(Truck truck2: trucks){
+                     GRBLinExpr c7 = new GRBLinExpr();
+                     c7.addTerm(-1,tik.get(truck1.truck_id).get(requests.get(0).node_id));
+                     c7.addTerm(1,tik.get(truck2.truck_id).get(requests.get(1).node_id));
+                     model.addConstr(c7,GRB.GREATER_EQUAL,requests.get(0).process_time,"c7");
+                 }
+
              }
+
+             for(Truck truck1: trucks){
+                 for(Truck truck2: trucks){
+                     GRBLinExpr c7 = new GRBLinExpr();
+                     c7.addTerm(-1,tik.get(truck1.truck_id).get(requests.get(2).node_id));
+                     c7.addTerm(1,tik.get(truck2.truck_id).get(requests.get(3).node_id));
+                     model.addConstr(c7,GRB.GREATER_EQUAL,requests.get(0).process_time,"c7");
+                 }
+
+             }
+
+
 
              //write precedence constraints for other jobs
 
              //c8: cmax def*/
+
+             for(Truck truck: trucks){
+                 GRBLinExpr c8 = new GRBLinExpr();
+                 c8.addTerm(1,cmax);
+                 c8.addTerm(-1, tik.get(truck.truck_id).get(truck.dest));
+                 model.addConstr(c8, GRB.GREATER_EQUAL, 0, "c8");
+             }
 
 
              //Objective function
