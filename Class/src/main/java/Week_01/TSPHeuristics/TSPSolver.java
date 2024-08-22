@@ -18,7 +18,7 @@ public class TSPSolver {
             System.out.println("i:"+(i+1));
         }
 
-        //TSPLocalSearch.LS(tsp,100000);
+        TSPLocalSearch.LS(tsp,10000);
 
     }
 }

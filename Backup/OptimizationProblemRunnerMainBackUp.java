@@ -9,12 +9,12 @@ import java.util.Map;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class OptimizationProblemRunnerMain {
+public class OptimizationProblemRunnerMainBackUp {
 
     public static void main(String[] args) {
         // Define the number of jobs for each type
-        int numberOfJobA = 1;
-        int numberOfJobB = 1;
+        int numberOfJobA = 4;
+        int numberOfJobB = 4;
 
         boolean DebugPrint = false; // Set this to true to enable printing of constraints
 

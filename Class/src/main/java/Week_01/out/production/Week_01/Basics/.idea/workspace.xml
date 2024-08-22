@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Week_01:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -45,15 +50,24 @@
   &quot;keyToString&quot;: {
     &quot;Application.Basics.ProjectCode.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Basics.ProjectCode.OptimizationProblemSolve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallerClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColumnGeneration.executor&quot;: &quot;Run&quot;,
     &quot;Application.DFS.executor&quot;: &quot;Run&quot;,
     &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
     &quot;Application.FJSP_IP.executor&quot;: &quot;Run&quot;,
     &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeuristicOptimizationMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeuristicOptimizationMainBackUp.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.ObjectsClasses.executor&quot;: &quot;Run&quot;,
     &quot;Application.OptimizationProblemRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptimizationProblemRunnerMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.OptimizationProblemSolve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProblemSolver.executor&quot;: &quot;Run&quot;,
     &quot;Application.TSPBnBDFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TSPSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VRP.executor&quot;: &quot;Run&quot;,
     &quot;Application.VRP_IP.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -64,10 +78,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager">
     <configuration name="Basics.ProjectCode.OptimizationProblemSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.ProjectCode.OptimizationProblemSolve" />
       <module name="Week_01" />
@@ -99,9 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.ProjectCode.ProblemSolver" />
+      <module name="Week_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VRP" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="VRP.IPModel.VRP_IP" />
+      <module name="Week_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.VRP" />
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.Basics.ProjectCode.OptimizationProblemSolve" />
     </list>
     <recent_temporary>
@@ -136,6 +169,10 @@
       <workItem from="1722012531385" duration="42167000" />
       <workItem from="1722358168697" duration="41303000" />
       <workItem from="1722774687862" duration="785000" />
+      <workItem from="1722857487051" duration="58466000" />
+      <workItem from="1723908795161" duration="50812000" />
+      <workItem from="1724061462873" duration="19536000" />
+      <workItem from="1724302743738" duration="319000" />
     </task>
     <servers />
   </component>

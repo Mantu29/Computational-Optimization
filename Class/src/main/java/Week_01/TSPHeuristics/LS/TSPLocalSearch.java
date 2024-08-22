@@ -3,6 +3,7 @@ package TSPHeuristics.LS;
 import TSPHeuristics.model.TSPProblem;
 
 import java.util.Random;
+import java.util.Arrays;
 
 public class TSPLocalSearch {
 
@@ -19,7 +20,7 @@ public class TSPLocalSearch {
         for(int i=0;i<tsp.n-1;i++){
             current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[i]][current_tour[i+1]];
         }
-        current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[tsp.n + 1]][current_tour[tsp.n]];
+        current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[tsp.n-1]][current_tour[0]];
         best_tour_length =current_tour_length;
 
         Random rand = new Random();
@@ -35,17 +36,22 @@ public class TSPLocalSearch {
             for(int i=0;i<tsp.n-1;i++){
                 current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[i]][current_tour[i+1]];
             }
-            current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[tsp.n-1]][current_tour[tsp.n]];
+            current_tour_length=current_tour_length+tsp.distance_matrix[current_tour[tsp.n-1]][current_tour[0]];
 
             if(current_tour_length<best_tour_length){
-                //-------
+                best_tour_length = current_tour_length;
+                for(int i = 0; i < tsp.n; i++){
+                    best_tour[i] = current_tour[i];
+                }
             }else{
                 temp=current_tour[pos1];
                 current_tour[pos1]=current_tour[pos2];
                 current_tour[pos2]=temp;
             }
 
-            System.out.println(current_tour_length+"--"+best_tour_length);
+            System.out.println("Current Tour Length: " + current_tour_length + " -- "+" Best Tour Lenth: " + best_tour_length);
         }
+
+        System.out.println("Best Tour is: " + Arrays.toString(best_tour));
     }
 }
