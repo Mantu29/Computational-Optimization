@@ -9,7 +9,7 @@ import java.util.Map;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class OptimizationProblemMain {
+public class OptimizationProblem {
 
     public static Map<String, Object> runOptimization(int numberOfJobA, int numberOfJobB, boolean DebugPrint, boolean PrintFinalResult) {
 
@@ -72,7 +72,7 @@ public class OptimizationProblemMain {
 
             // Define the number of operations and machines
             int numOperations = numberOfProcesses;
-            int numMachines = 10; // Example number of machines, adjust as needed
+            int numMachines = 10;
 
 
             // Create binary variables O_i^k only for eligible machines

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Week_01:jar" />
+      <artifact name="Week_01:jar2" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -46,44 +46,46 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Basics.ProjectCode.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Basics.ProjectCode.OptimizationProblemSolve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallerClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ColumnGeneration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FJSP_IP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HeuristicOptimizationMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HeuristicOptimizationMainBackUp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectsClasses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptimizationProblemRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptimizationProblemRunnerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptimizationProblemSolve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProblemSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TSPBnBDFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TSPSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VRP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VRP_IP.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mantu/OneDrive/Documents/GitHub/Computational-Optimization/Project/src/main/java/HelloWorld.java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Basics.ProjectCode.Main.executor": "Run",
+    "Application.Basics.ProjectCode.OptimizationProblemSolve.executor": "Run",
+    "Application.CallerClass.executor": "Run",
+    "Application.ColumnGeneration.executor": "Run",
+    "Application.DFS.executor": "Run",
+    "Application.DataTypes.executor": "Run",
+    "Application.FJSP_IP.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.HeuristicOptimizationMain.executor": "Run",
+    "Application.HeuristicOptimizationMainBackUp.executor": "Run",
+    "Application.HeuristicOptimizationSolver.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectsClasses.executor": "Run",
+    "Application.OptimizationProblemRunner.executor": "Run",
+    "Application.OptimizationProblemRunnerMain.executor": "Run",
+    "Application.OptimizationProblemSolve.executor": "Run",
+    "Application.ProblemSolver.executor": "Run",
+    "Application.TSPBnBDFS.executor": "Run",
+    "Application.TSPSolver.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Application.VRP.executor": "Run",
+    "Application.VRP_IP.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mantu/.jdks/corretto-17.0.12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Basics.ProjectCode.OptimizationProblemSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.ProjectCode.OptimizationProblemSolve" />
@@ -172,7 +174,10 @@
       <workItem from="1722857487051" duration="58466000" />
       <workItem from="1723908795161" duration="50812000" />
       <workItem from="1724061462873" duration="19536000" />
-      <workItem from="1724302743738" duration="9633000" />
+      <workItem from="1724302743738" duration="13201000" />
+      <workItem from="1724420829537" duration="1154000" />
+      <workItem from="1724494953620" duration="4631000" />
+      <workItem from="1724503720270" duration="12537000" />
     </task>
     <servers />
   </component>

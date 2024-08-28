@@ -97,9 +97,9 @@ public class JobFactory {
         // Update processes for each job based on its type
         for (Job job : jobList) {
             if (job.getJobType().equals("A")) {
-                CSVUtils.updateProcessesFromCSV(processesA, "C:\\Users\\mantu\\OneDrive\\Documents\\GitHub\\Computational-Optimization\\Class\\src\\main\\java\\Week_01\\ProjectCode\\seqA.csv", updatesA);
+                CSVUtils.updateProcessesFromCSV(processesA, "seqA.csv", updatesA);
             } else if (job.getJobType().equals("B")) {
-                CSVUtils.updateProcessesFromCSV(processesB, "C:\\Users\\mantu\\OneDrive\\Documents\\GitHub\\Computational-Optimization\\Class\\src\\main\\java\\Week_01\\ProjectCode\\seqB.csv", updatesB);
+                CSVUtils.updateProcessesFromCSV(processesB, "seqB.csv", updatesB);
             }
         }
 

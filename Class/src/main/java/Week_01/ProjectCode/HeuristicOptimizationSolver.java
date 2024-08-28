@@ -1,22 +1,20 @@
 package Basics.ProjectCode;
 
-import com.gurobi.gurobi.GRB;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HeuristicOptimizationMain{
+public class HeuristicOptimizationSolver {
 
     public static void main(String[] args) {
 
         // Solve the heuristic problem for 10+10 instances
         long startTimeModel = System.currentTimeMillis();
 
-        int largeNumA = 10;
+        int largeNumA = 2;
         int largeNumB = largeNumA;
-        int instance  = 3;
+        int instance  = 5;
 
         Map<String, Object> resultMap = heuristicOptimization(largeNumA, largeNumB, instance);
 
@@ -102,7 +100,7 @@ public class HeuristicOptimizationMain{
 
         for (int i = 0; i < numSubProblems; i++) {
             // Solve the instance+instance subproblem
-            Map<String, Object> subResultMap = OptimizationProblemMain.runOptimization(instance, instance, false, false);
+            Map<String, Object> subResultMap = OptimizationProblem.runOptimization(instance, instance, false, false);
 
             // Calculate the number of operations in this subproblem
             int subNumOperations = instance * 19 + instance * 16;
@@ -121,7 +119,7 @@ public class HeuristicOptimizationMain{
 
         // Handle any remaining operations
         if (remainderA > 0 || remainderB > 0) {
-            Map<String, Object> remainderResultMap = OptimizationProblemMain.runOptimization(remainderA, remainderB, false, false);
+            Map<String, Object> remainderResultMap = OptimizationProblem.runOptimization(remainderA, remainderB, false, false);
             int remainderNumOperations = remainderA * 19 + remainderB * 16;
             aggregateResults(remainderResultMap, operationCounter, cumulativeCmax, largeO_dummy, largeBeta_dummy, largeA_dummy, largeA_detail, largeT_dummy, largeE_dummy);
             operationCounter += remainderNumOperations;
