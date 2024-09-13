@@ -52,6 +52,7 @@
     "Application.Basics.ProjectCode.OptimizationProblemSolve.executor": "Run",
     "Application.CallerClass.executor": "Run",
     "Application.ColumnGeneration.executor": "Run",
+    "Application.CuttingStockProblemWastage.executor": "Run",
     "Application.DFS.executor": "Run",
     "Application.DataTypes.executor": "Run",
     "Application.FJSP_IP.executor": "Run",
@@ -86,6 +87,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Basics.EndTermCode" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Basics.ProjectCode.OptimizationProblemSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.ProjectCode.OptimizationProblemSolve" />
@@ -177,7 +183,10 @@
       <workItem from="1724302743738" duration="13201000" />
       <workItem from="1724420829537" duration="1154000" />
       <workItem from="1724494953620" duration="4631000" />
-      <workItem from="1724503720270" duration="12537000" />
+      <workItem from="1724503720270" duration="12839000" />
+      <workItem from="1724908370939" duration="3281000" />
+      <workItem from="1725359337888" duration="2000" />
+      <workItem from="1726219240661" duration="6905000" />
     </task>
     <servers />
   </component>

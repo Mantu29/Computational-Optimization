@@ -7,8 +7,8 @@ import java.io.IOException;
 public class ProblemSolver {
     public static void main(String[] args) {
 
-            int NoOfJobA = 1;
-            int NoOfJobB = NoOfJobA;
+            int NoOfJobA = 2;
+            int NoOfJobB = 3;
             Map<String, Object> resultMap = OptimizationProblem.runOptimization(NoOfJobA, NoOfJobB, false, true);
 
             // Check if the resultMap is not empty

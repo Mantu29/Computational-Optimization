@@ -53025,3 +53025,121 @@ Solution count 2: 373.4 811.7
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.734000000000e+02, best bound 3.734000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Aug 29 10:43:12 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 2379 rows, 1541 columns and 8893 nonzeros
+Model fingerprint: 0xfcfd10dc
+Variable types: 71 continuous, 1470 integer (1470 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 1907 rows and 1363 columns
+Presolve time: 0.05s
+Presolved: 472 rows, 178 columns, 2035 nonzeros
+Variable types: 35 continuous, 143 integer (143 binary)
+Found heuristic solution: objective 482.5000000
+Found heuristic solution: objective 482.4000000
+Found heuristic solution: objective 442.8000000
+Found heuristic solution: objective 441.8000000
+
+Root relaxation: objective 3.314000e+02, 86 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     331.4000000  331.40000  0.00%     -    0s
+
+Explored 1 nodes (86 simplex iterations) in 0.07 seconds (0.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 331.4 441.8 442.8 ... 482.5
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.314000000000e+02, best bound 3.314000000000e+02, gap 0.0000%
+
+Gurobi 11.0.1 (win64, Java) logging started Thu Aug 29 12:48:42 2024
+
+Set parameter Username
+Set parameter LogFile to value "mip1.log"
+Academic license - for non-commercial use only - expires 2025-02-11
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5800H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 13730 rows, 8168 columns and 53233 nonzeros
+Model fingerprint: 0x988635fa
+Variable types: 173 continuous, 7995 integer (7995 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Presolve removed 10884 rows and 7234 columns
+Presolve time: 0.59s
+Presolved: 2846 rows, 934 columns, 14218 nonzeros
+Variable types: 86 continuous, 848 integer (848 binary)
+
+Root relaxation: objective 3.734000e+02, 457 iterations, 0.03 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  373.40000    0    4          -  373.40000      -     -    0s
+H    0     0                     455.9000000  373.40000  18.1%     -    0s
+H    0     0                     452.7000000  373.40000  17.5%     -    0s
+     0     0  373.40000    0   11  452.70000  373.40000  17.5%     -    0s
+     0     0  373.40000    0    3  452.70000  373.40000  17.5%     -    0s
+H    0     0                     414.1000000  373.40000  9.83%     -    0s
+H    0     0                     406.8000000  373.40000  8.21%     -    1s
+H    0     0                     406.5000000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   12  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   14  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    9  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    9  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    7  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    9  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   13  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   13  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    6  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   26  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    6  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    6  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0    8  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   21  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   24  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   24  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   11  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   15  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   11  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   15  406.50000  373.40000  8.14%     -    1s
+     0     0  373.40000    0   16  406.50000  373.40000  8.14%     -    2s
+     0     0  373.40000    0   14  406.50000  373.40000  8.14%     -    2s
+     0     0  373.40000    0   12  406.50000  373.40000  8.14%     -    2s
+     0     0  373.40000    0    5  406.50000  373.40000  8.14%     -    2s
+     0     2  373.40000    0    5  406.50000  373.40000  8.14%     -    2s
+H  151   139                     406.5000000  373.40000  8.14%  17.7    2s
+  9520   593  393.50000   30   11  406.50000  393.40000  3.22%  10.1    5s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 5
+
+Explored 18668 nodes (354180 simplex iterations) in 9.02 seconds (4.71 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 10: 406.5 406.5 406.5 ... 455.9
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.064999999591e+02, best bound 4.064999999591e+02, gap 0.0000%
